@@ -1,8 +1,8 @@
-# Adtran
+== Adtran
 
 OpenNMS configuration for Adtran devices.
 
-## Installation
+=== Installation
 
 .Download and install from GitHub
 [source, bash]
@@ -12,7 +12,8 @@ cd ${HOME}/opennms-config-workspace
 git clone https://github.com/opennms-config-modules/adtran.git
 ----
 
-### Events
+==== Events
+
 .Install Adtran events
 [source, bash]
 ----
@@ -22,6 +23,6 @@ cp ${HOME}/opennms-config-workspace/adtran/events/*.xml ${OPENNMS_HOME}/etc/even
 .Include in eventconf.xml
 [source, xml]
 ----
-<event-file>events/Adtran.Atlas.events.xml</event-file>
-<event-file>events/Adtran.events.xml</event-file>
+<event-file>events/adtran.atlas.events.xml</event-file>
+<event-file>events/adtran.events.xml</event-file>
 ----
