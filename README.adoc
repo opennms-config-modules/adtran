@@ -1,8 +1,8 @@
-== Adtran
+= Adtran
 
 OpenNMS configuration for Adtran devices.
 
-=== Installation
+== Installation
 
 .Download and install from GitHub
 [source, bash]
@@ -12,7 +12,7 @@ cd ${HOME}/opennms-config-workspace
 git clone https://github.com/opennms-config-modules/adtran.git
 ----
 
-==== Events
+=== Events
 
 .Install Adtran events
 [source, bash]
